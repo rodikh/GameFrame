@@ -1,0 +1,8 @@
+{
+  "path": "images/",
+  "manifest": [
+    {"src": "bg-menu.jpg", "id": "bg-menu"},
+    {"src": "o.png", "id": "o"},
+    {"src": "x.png", "id": "x"}
+  ]
+}
