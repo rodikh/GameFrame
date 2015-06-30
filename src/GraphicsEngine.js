@@ -41,6 +41,9 @@
      */
     GraphicsEngine.prototype.addContainer = function (container, name, ctx) {
 //        console.log('Graphics: Container Added', name);
+        if (!container) {
+            container = new createjs.Container();
+        }
         container.name = name;
 
         if (ctx) {
