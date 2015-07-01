@@ -1,11 +1,10 @@
 {
-    "name": "rodik.me",
-    "version": "0.0.1",
-    "dependencies": {
-        "jquery": "2.*.*",
-        "bootstrap": "3.*",
-        "animate.css": "*",
-        "easeljs": "*",
-        "createjs-preloadjs": "*"
-    }
+  "name": "rodik.me",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "2.*",
+    "easeljs": "*",
+    "createjs-preloadjs": "*"
+  },
+  "ignore": ["games/"]
 }
